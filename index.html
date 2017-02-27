@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>苏宁test页面</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/touchScroll.js"></script>
+    <script>
+    //动态控制视口缩放比例
+    var pixelPatio = 1 / window.devicePixelRatio;
+    document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelPatio + ',minimum-scale=' + pixelPatio + ',maximum=' + pixelPatio + '"/>');
+    </script>
+</head>
+
+<body>
+    <header class="head_box">
+        <a href="" class="btn_type"></a>
+        <div class="search_box">
+            <form action="" class="search_form">
+                <!-- <i class="ico-search"></i> -->
+                <input type="text" class="search_input" placeholder="华为荣耀">
+            </form>
+        </div>
+        <a href="" class="shop_car"></a>
+    </header>
+    <section class="wrap" id="wrap">
+        <div id="wrapscroll" class="wrapscroll">
+            <div id="tabimage" class="tabimage">
+                <ul id="bannerlist" class="bannerlist">
+                    <li>
+                        <a href="#1">
+                            <img src="img/1.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#2">
+                            <img src="img/2.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#3">
+                            <img src="img/3.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#4">
+                            <img src="img/4.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#5">
+                            <img src="img/5.jpg" />
+                        </a>
+                    </li>
+                </ul>
+                <nav id="tabimagebtn" class="tabimagebtn">
+                    <a href="javascript:;" class="active"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                </nav>
+            </div>
+            <nav class="nav clearfix">
+                <a href="" class="nav_item">
+                    <img src="img/ico-nav.jpg" alt="">
+                    <strong class="nav_title">大聚惠</strong>
+                </a>
+                <a href="" class="nav_item">
+                    <img src="img/ico-nav.jpg" alt="">
+                    <strong class="nav_title">大聚惠</strong>
+                </a>
+                <a href="" class="nav_item">
+                    <img src="img/ico-nav.jpg" alt="">
+                    <strong class="nav_title">大聚惠</strong>
+                </a>
+                <a href="" class="nav_item">
+                    <img src="img/ico-nav.jpg" alt="">
+                    <strong class="nav_title">大聚惠</strong>
+                </a>
+                <a href="" class="nav_item">
+                    <img src="img/ico-nav.jpg" alt="">
+                    <strong class="nav_title">大聚惠</strong>
+                </a>
+                <a href="" class="nav_item">
+                    <img src="img/ico-nav.jpg" alt="">
+                    <strong class="nav_title">大聚惠</strong>
+                </a>
+                <a href="" class="nav_item">
+                    <img src="img/ico-nav.jpg" alt="">
+                    <strong class="nav_title">大聚惠</strong>
+                </a>
+                <a href="" class="nav_item">
+                    <img src="img/ico-nav.jpg" alt="">
+                    <strong class="nav_title">大聚惠</strong>
+                </a>
+                <a href="" class="nav_item">
+                    <img src="img/ico-nav.jpg" alt="">
+                    <strong class="nav_title">大聚惠</strong>
+                </a>
+                <a href="" class="nav_item">
+                    <img src="img/ico-nav.jpg" alt="">
+                    <strong class="nav_title">大聚惠</strong>
+                </a>
+            </nav>
+            <div class="suning_tt">
+                <div class="tt_title"></div>
+                <div class="tt_line"></div>
+                <div class="tt_list">
+                    <a href="" class="item">诺基亚又被卖掉了 这次接盘的是</a>
+                    <a href="" class="item">开机仅3秒？让你电脑彻底革新！</a>
+                </div>
+            </div>
+            <div class="shoping_type">
+                <div class="type_top">
+                    <a href="" class="big_img"><img src="img/shoping-1.jpg" alt=""></a>
+                    <a href="" class="sub_img"><img src="img/shoping-2.jpg" alt=""></a>
+                    <a href="" class="sub_img"><img src="img/shoping-2.jpg" alt=""></a>
+                </div>
+                <div class="type_bottom clearfix">
+                    <a href="" class="bottom_item">
+                        <img src="img/shoping-3.jpg" alt="">
+                    </a>
+                    <a href="" class="bottom_item">
+                        <img src="img/shoping-3.jpg" alt="">
+                    </a>
+                    <a href="" class="bottom_item">
+                        <img src="img/shoping-3.jpg" alt="">
+                    </a>
+                    <a href="" class="bottom_item">
+                        <img src="img/shoping-3.jpg" alt="">
+                    </a>
+                    <a href="" class="bottom_item">
+                        <img src="img/shoping-3.jpg" alt="">
+                    </a>
+                    <a href="" class="bottom_item">
+                        <img src="img/shoping-3.jpg" alt="">
+                    </a>
+                    <a href="" class="bottom_item">
+                        <img src="img/shoping-3.jpg" alt="">
+                    </a>
+                    <a href="" class="bottom_item">
+                        <img src="img/shoping-3.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="suning_qg">
+                <header class="head">
+                    <div class="head_left">
+                        <h3 class="title"></h3>
+                        <div class="time_box">
+                            <span class="time_name">
+                            20点场
+                        </span>
+                            <div class="update_time">
+                                <span class="time_item">20</span>
+                                <span class="time_ico">:</span>
+                                <span class="time_item">39</span>
+                                <span class="time_ico">:</span>
+                                <span class="time_item tips">50</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head_right">
+                        <a href="" class="more">吃货上新季</a>
+                        <i class="ico_more"></i>
+                    </div>
+                </header>
+                <div id="shoping_box" class="shoping_box">
+                    <ul id="shoping_list" class="shoping_list">
+                        <li class="list_item">
+                            <a href="" class="item_img">
+                                <img src="img/shoping-4.jpg" alt="">
+                            </a>
+                            <div class="item_bottom">
+                                <strong class="price">￥15.90</strong>
+                                <del class="prime">￥50.90</del>
+                                <div class="discount">
+                                    <span class="big_font">5.<span>8折</span></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <a href="" class="item_img">
+                                <img src="img/shoping-4.jpg" alt="">
+                            </a>
+                            <div class="item_bottom">
+                                <strong class="price">￥15.90</strong>
+                                <del class="prime">￥50.90</del>
+                                <div class="discount">
+                                    <span class="big_font">5.<span>8折</span></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <a href="" class="item_img">
+                                <img src="img/shoping-4.jpg" alt="">
+                            </a>
+                            <div class="item_bottom">
+                                <strong class="price">￥15.90</strong>
+                                <del class="prime">￥50.90</del>
+                                <div class="discount">
+                                    <span class="big_font">5.<span>8折</span></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <a href="" class="item_img">
+                                <img src="img/shoping-4.jpg" alt="">
+                            </a>
+                            <div class="item_bottom">
+                                <strong class="price">￥15.90</strong>
+                                <del class="prime">￥50.90</del>
+                                <div class="discount">
+                                    <span class="big_font">5.<span>8折</span></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <a href="" class="item_img">
+                                <img src="img/shoping-4.jpg" alt="">
+                            </a>
+                            <div class="item_bottom">
+                                <strong class="price">￥15.90</strong>
+                                <del class="prime">￥50.90</del>
+                                <div class="discount">
+                                    <span class="big_font">5.<span>8折</span></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <a href="" class="item_img">
+                                <img src="img/shoping-4.jpg" alt="">
+                            </a>
+                            <div class="item_bottom">
+                                <strong class="price">￥15.90</strong>
+                                <del class="prime">￥50.90</del>
+                                <div class="discount">
+                                    <span class="big_font">5.<span>8折</span></span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner_first">
+                <a href=""><img src="img/banner-1.jpg" alt="bannerfirst"></a>
+            </div>
+            <div class="economical">
+                <div class="economical_top">
+                    <a href=""><img src="img/economical.png" alt=""></a>
+                </div>
+                <div class="economical_bottom">
+                    <a href="" class="economical_bottom_big"><img src="img/economical-1.jpg" alt=""></a>
+                    <a href=""><img src="img/economical-2.jpg" alt=""></a>
+                    <a href=""><img src="img/economical-2.jpg" alt=""></a>
+                    <a href=""><img src="img/economical-2.jpg" alt=""></a>
+                    <a href=""><img src="img/economical-2.jpg" alt=""></a>
+                </div>
+            </div>
+            <div id="tabimage2" class="tabimage2">
+                <ul id="bannerlist2" class="bannerlist2">
+                    <li>
+                        <a href="#1">
+                            <img src="img/banner-2-1.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#2">
+                            <img src="img/banner-2-2.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#3">
+                            <img src="img/banner-2-3.jpg" />
+                        </a>
+                    </li>
+                </ul>
+                <nav id="tabimagebtn2" class="tabimagebtn2">
+                    <a href="javascript:;" class="active"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                </nav>
+            </div>
+            <div class="life">
+                <div class="life_top">
+                    <a href=""><img src="img/life.jpg" alt=""></a>
+                </div>
+                <div class="life_bottom">
+                    <a href="" class="life_bottom_big"><img src="img/economical-1.jpg" alt=""></a>
+                    <a href=""><img src="img/economical-2.jpg" alt=""></a>
+                    <a href=""><img src="img/economical-2.jpg" alt=""></a>
+                    <a href="" class="life_bottomh"><img src="img/life-1.jpg" alt=""></a>
+                    <a href="" class="life_bottomh"><img src="img/life-1.jpg" alt=""></a>
+                    <a href="" class="life_bottomh"><img src="img/life-1.jpg" alt=""></a>
+                    <a href="" class="life_bottomh"><img src="img/life-1.jpg" alt=""></a>
+                </div>
+            </div>
+            <div id="tabimage3" class="tabimage3">
+                <ul id="bannerlist3" class="bannerlist3">
+                    <li>
+                        <a href="#1">
+                            <img src="img/banner-2-2.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#2">
+                            <img src="img/banner-2-1.jpg" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#3">
+                            <img src="img/banner-2-3.jpg" />
+                        </a>
+                    </li>
+                </ul>
+                <nav id="tabimagebtn3" class="tabimagebtn3">
+                    <a href="javascript:;" class="active"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                </nav>
+            </div>
+            <div class="tuijian">
+                <a href=""><img src="img/tuijian.jpg" alt=""></a>
+                <div id="tabimage4" class="tabimage4">
+                    <ul id="bannerlist4" class="bannerlist4">
+                        <li>
+                            <div>
+                                <a href=""><img src="img/demon.jpg" alt=""><p>珠宝首饰</p><span>为爱启程</span></a>
+                                <a href=""><img class="imgbig" src="img/d1b.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <a href=""><img src="img/demon.jpg" alt=""><p>珠宝首饰</p><span>为爱启程</span></a>
+                                <a href=""><img class="imgbig" src="img/d1b.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href=""><img src="img/demon.jpg" alt=""><p>珠宝首饰</p><span>为爱启程</span></a>
+                                <a href=""><img class="imgbig" src="img/d1b.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <a href=""><img src="img/demon.jpg" alt=""><p>珠宝首饰</p><span>为爱启程</span></a>
+                                <a href=""><img class="imgbig" src="img/d1b.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href=""><img src="img/demon.jpg" alt=""><p>珠宝首饰</p><span>为爱启程</span></a>
+                                <a href=""><img class="imgbig" src="img/d1b.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""></a>
+                            </div>
+                            <div>
+                                <a href=""><img src="img/demon.jpg" alt=""><p>珠宝首饰</p><span>为爱启程</span></a>
+                                <a href=""><img class="imgbig" src="img/d1b.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""><img class="imgsmall" src="img/d1s.jpg" alt=""></a>
+                            </div>
+                        </li>
+                    </ul>
+                    <nav id="tabimagebtn4" class="tabimagebtn4">
+                        <a href="javascript:;" class="active"></a>
+                        <a href="javascript:;"></a>
+                        <a href="javascript:;"></a>
+                    </nav>
+                </div>
+            </div>
+            <div class="like">
+                <a class="liketitle" href="">猜你喜欢</a>
+                <a class="likehint" href="">登陆后给您专属推荐</a>
+            </div>
+            <div class="likecon">
+                <ul>
+                    <li><a href=""><img src="img/shangpin.jpg" alt=""><p>美肤宝熊果苷雪颜面膜20片 皙白保湿补水亮肤轻薄透气面贴...</p><span>￥78.00</span><span class="likebtn">找相似</span></a></li>
+                    <li><a href=""><img src="img/shangpin.jpg" alt=""><p>美肤宝熊果苷雪颜面膜20片 皙白保湿补水亮肤轻薄透气面贴...</p><span>￥78.00</span><span class="likebtn">找相似</span></a></li>
+                </ul>
+            </div>
+            <div class="foot">
+                <a href=""><img src="img/suning.jpg" alt=""></a>
+                <ul>
+                    <li><a href="">登陆</a></li>
+                    <li><a href="">注册</a></li>
+                    <li><a href="">电脑版</a></li>
+                    <li><a href="">普通版</a></li>
+                    <li><a href="">客户端</a></li>
+                </ul>
+                <span>Copyright &copy; 2002 -2017 苏宁 suning.com 版权所有</span>
+            </div>
+        </div>
+    </section>
+    <script>
+    setSize();
+    window.addEventListener("resize", setSize, false);
+    window.addEventListener("orientationchange", setSize, false);
+
+    function setSize() {
+        //动态控制字体大小
+        var html = document.getElementsByTagName("html")[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        // pageWidth = pageWidth > 540 ? 540 : pageWidth;
+        html.style.fontSize = pageWidth / 16 + "px";
+    };
+
+    window.onload = function() {
+        //幻灯片
+        var oList = document.getElementById("bannerlist");
+        var aLi = oList.getElementsByTagName("li");
+        var iW = document.documentElement.clientWidth;
+        var aNav = document.getElementById("tabimagebtn").children;
+        var iTouchStartX = 0;
+        var iStartX = 0;
+        var iNow = 0;
+        oList.innerHTML += oList.innerHTML;
+        oList.style.width = aLi.length * 100 + "%";
+        for (var i = 0; i < aLi.length; i++) {
+            aLi[i].style.width = 1 / aLi.length * 100 + "%";
+        }
+        var oScroll = new MScroll("tabimage", "x", false, false);
+        oScroll.onscrollstart = function() {
+            if (iNow == 0) {
+                iNow = aNav.length;
+                this.iScroll = -iNow * iW;
+                this.setCss();
+            }
+            if (iNow == aLi.length - 1) {
+                iNow = aNav.length - 1;
+                this.iScroll = -iNow * iW;
+                this.setCss();
+            }
+        };
+        oScroll.onscrollend = function() {
+            var iDis = (this.iScroll - this.iStartT);
+            if (Math.abs(iDis) >= iW / 2) {
+                iDis > 0 ? iNow-- : iNow++;
+            }
+            var iLeft = -iNow * iW;
+            clearInterval(this.timer);
+            this.tweenMove(iLeft - this.iScroll, "easeOut");
+            for (var i = 0; i < aNav.length; i++) {
+                aNav[i].className = "";
+            }
+            aNav[iNow % aNav.length].className = "active";
+        };
+        //掌上抢
+        var oShopingBox = document.getElementById("shoping_box");
+        var oShopingList = document.getElementById("shoping_list");
+        oShopingList.style.width = oShopingList.scrollWidth + "px";
+        var oScrollZ = new MScroll(oShopingBox, "x");
+        //滑屏下拉
+        var oPage = document.getElementById("wrap");
+        var oScrollP = new MScroll(oPage, "y", false, false);
+        // banner-second幻灯片
+        var oList2 = document.getElementById("bannerlist2");
+        var aLi2 = oList2.getElementsByTagName("li");
+        var iW2 = document.documentElement.clientWidth;
+        var aNav2 = document.getElementById("tabimagebtn2").children;
+        var iTouchStartX2 = 0;
+        var iStartX2 = 0;
+        var iNow2 = 0;
+        oList2.innerHTML += oList2.innerHTML;
+        oList2.style.width = aLi2.length * 100 + "%";
+        for (var i = 0; i < aLi2.length; i++) {
+            aLi2[i].style.width = 1 / aLi2.length * 100 + "%";
+        }
+        var oScroll2 = new MScroll("tabimage2", "x", false, false);
+        oScroll2.onscrollstart = function() {
+            if (iNow2 == 0) {
+                iNow2 = aNav2.length;
+                this.iScroll = -iNow2 * iW2;
+                this.setCss();
+            }
+            if (iNow2 == aLi2.length - 1) {
+                iNow2 = aNav2.length - 1;
+                this.iScroll = -iNow2 * iW2;
+                this.setCss();
+            }
+        };
+        oScroll2.onscrollend = function() {
+            var iDis = (this.iScroll - this.iStartT);
+            if (Math.abs(iDis) >= iW2 / 2) {
+                iDis > 0 ? iNow2-- : iNow2++;
+            }
+            var iLeft2 = -iNow2 * iW2;
+            clearInterval(this.timer);
+            this.tweenMove(iLeft2 - this.iScroll, "easeOut");
+            for (var i = 0; i < aNav2.length; i++) {
+                aNav2[i].className = "";
+            }
+            aNav2[iNow2 % aNav2.length].className = "active";
+        };
+        // banner-third幻灯片
+        var oList3 = document.getElementById("bannerlist3");
+        var aLi3 = oList3.getElementsByTagName("li");
+        var iW3 = document.documentElement.clientWidth;
+        var aNav3 = document.getElementById("tabimagebtn3").children;
+        var iTouchStartX3 = 0;
+        var iStartX3 = 0;
+        var iNow3 = 0;
+        oList3.innerHTML += oList3.innerHTML;
+        oList3.style.width = aLi3.length * 100 + "%";
+        for (var i = 0; i < aLi3.length; i++) {
+            aLi3[i].style.width = 1 / aLi3.length * 100 + "%";
+        }
+        var oScroll3 = new MScroll("tabimage3", "x", false, false);
+        oScroll3.onscrollstart = function() {
+            if (iNow3 == 0) {
+                iNow3 = aNav3.length;
+                this.iScroll = -iNow3 * iW3;
+                this.setCss();
+            }
+            if (iNow3 == aLi3.length - 1) {
+                iNow3 = aNav3.length - 1;
+                this.iScroll = -iNow3 * iW3;
+                this.setCss();
+            }
+        };
+        oScroll3.onscrollend = function() {
+            var iDis = (this.iScroll - this.iStartT);
+            if (Math.abs(iDis) >= iW3 / 2) {
+                iDis > 0 ? iNow3-- : iNow3++;
+            }
+            var iLeft3 = -iNow3 * iW3;
+            clearInterval(this.timer);
+            this.tweenMove(iLeft3 - this.iScroll, "easeOut");
+            for (var i = 0; i < aNav3.length; i++) {
+                aNav3[i].className = "";
+            }
+            aNav3[iNow3 % aNav3.length].className = "active";
+        };
+        // 好店推荐 轮播
+        var oList4 = document.getElementById("bannerlist4");
+        var aLi4 = oList4.getElementsByTagName("li");
+        var iW4 = document.documentElement.clientWidth;
+        var aNav4 = document.getElementById("tabimagebtn4").children;
+        var iTouchStartX4 = 0;
+        var iStartX4 = 0;
+        var iNow4 = 0;
+        oList4.innerHTML += oList4.innerHTML;
+        oList4.style.width = aLi4.length * 100 + "%";
+        for (var i = 0; i < aLi4.length; i++) {
+            aLi4[i].style.width = 1 / aLi4.length * 100 + "%";
+        }
+        var oScroll4 = new MScroll("tabimage4", "x", false, false);
+        oScroll4.onscrollstart = function() {
+            if (iNow4 == 0) {
+                iNow4 = aNav4.length;
+                this.iScroll = -iNow4 * iW4;
+                this.setCss();
+            }
+            if (iNow4 == aLi4.length - 1) {
+                iNow4 = aNav4.length - 1;
+                this.iScroll = -iNow4 * iW4;
+                this.setCss();
+            }
+        };
+        oScroll4.onscrollend = function() {
+            var iDis = (this.iScroll - this.iStartT);
+            if (Math.abs(iDis) >= iW4 / 2) {
+                iDis > 0 ? iNow4-- : iNow4++;
+            }
+            var iLeft4 = -iNow4 * iW4;
+            clearInterval(this.timer);
+            this.tweenMove(iLeft4 - this.iScroll, "easeOut");
+            for (var i = 0; i < aNav4.length; i++) {
+                aNav4[i].className = "";
+            }
+            aNav4[iNow4 % aNav4.length].className = "active";
+        };
+    };
+    </script>
+    <!-- 
+    移动端兼容问题：
+    1.固定定位（fixed）元素内容中如果有input元素的话，当获取焦点触发键盘之后会导致固定定位错位的情况发生
+    2.不管使用背景图还是img，一定要调整对应的size（大小）
+        background-size属性，如果图片大小和容器大小一致，则可以使用100%；如果不一致，则针对图片分别设置宽高
+    3.碰到文字，一定要测量行高，不然高度会不准确
+    4.标签的特性需要熟记于心 
+    -->
+</body>
+
+</html>
